@@ -1,0 +1,11 @@
+1> grep -H -r "main()"
+2> find -iname "*.txt" -mmin +30 -print
+3> cat -n dummy1.txt
+4> ls -lh
+5> grep -o -i { dummyC.c | wc -l
+   grep -o -i } dummyC.c | wc -l
+6> cat originalFile1.txt originalFile2.txt > finalFile.txt 
+7> join -v 1 -v 2 file1 file2
+8> bash evenOdd.sh
+9> bash stringLength.sh
+10> ./chess.sh

@@ -1,0 +1,92 @@
+Script started on Thursday 13 October 2022 02:09:00 PM IST
+]777;notify;Command completed;exit]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ ./a[Kchess.sh
+[3J[H[2J[7;16H[47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [8;16H[47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [9;16H[40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [10;16H[40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [11;16H[47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [12;16H[47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [13;16H[40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [14;16H[40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [15;16H[47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [16;16H[47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [17;16H[40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [18;16H[40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [19;16H[47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [20;16H[47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [21;16H[40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [22;16H[40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [23;16H[47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [24;16H[47m    [40m    [47m    [40m    [47m    [40m    [47m    [40m    [47m    [0m
+
+]777;notify;Command completed;./chess.sh]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ bash een[K[KvenOdd/sh[K[K[K.sh
+[3J[H[2J---- EVEN OR ODD IN SHELL SCRIPT -----
+Enter a number:3 5
+RESULT: 5 is Odd
+]777;notify;Command completed;bash evenOdd.sh]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ grep -H -r "man[Kain[K[K[Kin)[K()"
+[35m[Kdummy2.txt[m[K[36m[K:[m[Kint [01;31m[Kmain()[m[K
+[35m[KdummyC.c[m[K[36m[K:[m[Kint [01;31m[Kmain()[m[K
+[35m[KCommands.txt[m[K[36m[K:[m[K1> grep -H -r "[01;31m[Kmain()[m[K"
+[35m[Kdummy1.txt[m[K[36m[K:[m[Kint [01;31m[Kmain()[m[K
+]777;notify;Command completed;grep -H -r "main()"]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ find -iname "*txt" -mmin +30 -print
+./dummy2.txt
+./file1.txt
+./originalFile2.txt
+./dummy3.txt
+./originalFile1.txt
+./dummy1.txt
+./file2.txt
+]777;notify;Command completed;find -iname "*txt" -mmin +30 -print]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ cat -n dummy1.txt
+     1	#include<stdio.h>
+     2	
+     3	int main()
+     4	{
+     5		printf("Hello World");
+     6	}
+]777;notify;Command completed;cat -n dummy1.txt]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ ls -lh
+total 52K
+-rw-rw-r--. 1 user user    0 Oct 13 14:09 22_7.txt
+-rwxrwxr-x. 1 user user 1021 Oct 13 13:16 [0m[38;5;40mchess.sh[0m
+-rw-r--r--. 1 user user  308 Oct 13 13:54 Commands.txt
+-rw-rw-r--. 1 user user   58 Oct 13 12:32 dummy1.txt
+-rw-rw-r--. 1 user user   65 Oct 13 12:32 dummy2.txt
+-rw-rw-r--. 1 user user   73 Oct 13 12:37 dummy3.txt
+-rw-rw-r--. 1 user user  176 Oct 13 12:46 dummyC.c
+-rw-rw-r--. 1 user user  282 Oct 13 13:31 evenOdd.sh
+-rw-rw-r--. 1 user user    8 Oct 13 13:01 file1.txt
+-rw-rw-r--. 1 user user    8 Oct 13 13:01 file2.txt
+-rw-rw-r--. 1 user user   94 Oct 13 13:57 finalFile.txt
+-rw-rw-r--. 1 user user   60 Oct 13 13:03 originalFile1.txt
+-rw-rw-r--. 1 user user   34 Oct 13 13:03 originalFile2.txt
+-rwxrwxr-x. 1 user user   70 Oct 13 13:26 [38;5;40mstringLength.sh[0m
+]777;notify;Command completed;ls -lh]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ cat dummyC.c
+#include<stdio.h>
+
+int main()
+{
+	printf("Team 22 is saying Hi!\n");
+	int i;
+	printf("The first 10 whole numbers are : \n);
+	for(i = 0; i < 10; i++)
+	{
+		printf("%d\n",i);
+	}
+}
+]777;notify;Command completed;cat dummyC.c]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ greo[Kp -o -i { dummyC.c | wc -l
+2
+]777;notify;Command completed;grep -o -i { dummyC.c | wc -l]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ grep -o -i { dummyC.c | wc -l[C[1P[1@}
+2
+]777;notify;Command completed;grep -o -i } dummyC.c | wc -l]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ cat originalFile1.txt
+Team Member 1 : Ashfaq Murshed
+Team Member 2 : Areeb Akthar
+]777;notify;Command completed;cat originalFile1.txt]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ cat originalFile2.txt
+Team Leader : Manas Pratim Biswas
+]777;notify;Command completed;cat originalFile2.txt]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ cat originalFle[K[Kile1.txt originalFile2.txt > finalFile.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+]777;notify;Command completed;cat originalFile1.txt originalFile2.txt > finalFile.txt]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ cat finalFile.txt
+Team Member 1 : Ashfaq Murshed
+Team Member 2 : Areeb Akthar
+Team Leader : Manas Pratim Biswas
+]777;notify;Command completed;cat finalFile.txt]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ cat file1.txt
+a 1
+b 2
+]777;notify;Command completed;cat file1.txt]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ cat file2.txt
+a A
+c C
+]777;notify;Command completed;cat file2.txt]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ join -v 1 -v 2 file1 file2
+join: file1: No such file or directory
+]777;notify;Command completed;join -v 1 -v 2 file1 file2]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ join -v 1 -v 2 file1.txt file2.txt
+b 2
+c C
+]777;notify;Command completed;join -v 1 -v 2 file1.txt file2.txt]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ bash[K[K[K[Kcat stringLength.sh
+str="this is a string"
+n=${#str}
+echo "Length of the string is : $n "
+]777;notify;Command completed;cat stringLength.sh]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ bash stringLength.sh
+Length of the string is : 16 
+]777;notify;Command completed;bash stringLength.sh]0;user@localhost:~/Desktop/OSLabs]7;file://localhost.localdomain/home/user/Desktop/OSLabs[user@localhost OSLabs]$ exit
+exit
+
+Script done on Thursday 13 October 2022 02:13:49 PM IST
